@@ -12,6 +12,13 @@ out/
 build/
 dist/
 
+# Local databases & data dumps
+backend/data/
+data/
+*.wt
+*.lock
+*.turtle
+
 # TypeScript build info
 *.tsbuildinfo
 next-env.d.ts
